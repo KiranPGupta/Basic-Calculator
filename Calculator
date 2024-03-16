@@ -1,0 +1,24 @@
+print ("1.Add")
+print ("2.Sub")
+print ("3.Mul")
+print ("4.Division")
+
+x=int(input("Enter the choice: "))
+if x==1:
+    a=int(input("Enter the first value: "))
+    b=int(input("Enter the second value: "))
+    print(a+b)
+elif x==2:
+    a=int(input("Enter the first value: "))
+    b=int(input("Enter the second value: "))
+    print(a-b)
+elif x==3:
+    a=int(input("Enter the first value: "))
+    b=int(input("Enter the second value: "))
+    print(a*b)
+elif x==4:
+    a=int(input("Enter the first value: "))
+    b=int(input("Enter the second value: "))
+    print(a/b)
+else :
+    print("Invalid Choice")
